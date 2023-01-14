@@ -1,0 +1,221 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	box-sizing: border-box;
+	font-family: calibri, tahoma;
+}
+body a{
+	color: #fff;
+	text-decoration: none;
+}
+body b{
+	font-family: mv boli;
+	color: rgb(237, 28, 36);
+}
+.wrapper{
+
+}
+.wrapper .top-div{
+	height: 30rem;
+	widows: inherit;
+	background: url('../_images/inner.jpg') no-repeat center/cover;
+	color: #fff;
+}
+.top-div .cover{
+	position: relative;
+	background: rgba(0, 0, 0, 0.8);
+	height: inherit;
+	widows: inherit;
+}
+.cover nav{
+	position: fixed;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	transition: 1s;
+}
+.scrolling-active{
+	top: 0;
+	background: rgba(237, 28, 36);
+	z-index: 1;
+	height: 10rem;
+	widows: inherit;
+	justify-content: space-between;
+	transition: 1s;
+}
+.b-active{
+	color: #333;
+}
+nav h1{
+	font-size: 2rem;
+	letter-spacing: 1rem;
+}
+nav h1 b{
+	font-size: 3rem;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 50rem;
+	font-size: 1.5rem;
+}
+.cover .sub-div{
+	position: relative;
+	top: 10rem;
+	left: -15rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 15rem;
+	width: 70rem;
+}
+.sub-div h1{
+	font-size: 10rem;
+	letter-spacing: 1rem;
+}
+.sub-div h1 b{
+	font-size: 20rem;
+}
+.sub-div .btn{
+	position: relative;
+	height: 5rem;
+	width: 20rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background: rgb(237, 28, 36);
+	outline: 3px solid rgb(237, 28, 36);
+	outline-offset: .5rem;
+	font-size: 1.5rem;
+	letter-spacing: .5rem;
+}
+.h1-0{
+	position: relative;
+	top: 5rem;
+	font-size: 2rem;
+	letter-spacing: 1rem;
+}
+.h1-0 b{
+	font-size: 3rem;
+}
+.next-div-0{
+	width: 100rem;
+	height: 50rem;
+	margin: 5rem auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.next-div-0 form{
+	float: left;
+	height: 45rem;
+	width: 45rem;
+	font-size: 1.5rem;
+}
+.next-div-0 form p{
+	color: grey;
+	font-size: 1.5rem;
+}
+.next-div-0 form div{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin-bottom: .6rem;
+	height: 3rem;
+}
+.next-div-0 .form-1 span{
+	width: 10rem;
+	height: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	background: #333;
+	color: #fff;
+	left: -10rem;
+}
+.next-div-0 .form-1 input, select, textarea, .price-span{
+	width: 30rem;
+	height: 3rem;
+	font-size: 1.5rem;
+}
+.next-div-0 .form-1 input, textarea, .price-span, .amount-span, .payment, .delivery{
+	width: 29rem;
+	padding-left: 1rem;
+}
+.price-span, .amount-span, .payment, .delivery{
+	background: #fff;
+	background: rgba(237, 28, 36, 0.6);
+	justify-content: left;
+	font-size: 1.8rem;
+}
+select{
+	border: none;
+}
+select option{
+	border: 1px solid;
+	margin: 1rem 0;
+	color: gray;
+}
+.next-div-0 .form-1 .input-1{
+	background: rgb(237, 28, 36);
+	color: #fff;
+	outline: none;
+	border: none;
+}
+.nexr-div-0 .form-2 div{
+	width: 50rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.next-div-0 .form-2 label{
+	width: 30%;
+	height: 3rem;
+	margin: 0 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+}
+.next-div-0 .form-2 span, label{
+	width: 70%;
+	height: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.next-div-0 .form-2 span{
+	font-size: 1.7rem;
+	color: #fff;
+	justify-content: left;
+	padding-left: 1rem;
+}
+.sp1,.sp2,.sp3,.sp4,.sp5,.sp6, .sp-date{
+	background: grey;
+}
+.sp7, .sp8{
+	background: rgba(237, 28, 36, 0.7);
+}
+label{
+	background: #333;
+	position: sticky;
+	color: #fff;
+	left: -10rem;
+}
+.next-div-0 .form-2 input{
+	width: 30rem;
+	height: 3rem;
+	font-size: 1.5rem;
+	background: rgb(237, 28, 36);
+	color: #fff;
+	outline: none;
+	border: none;
+}
+.focus{
+	background: #333;
+	color: #fff;
+}

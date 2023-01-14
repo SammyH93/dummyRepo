@@ -1,0 +1,335 @@
+
+.wrapper{
+	overflow: hidden;
+	width: 100vw;
+}
+.wrapper.active{
+	background: rgba(0, 0, 0, .9);
+}
+.top-div{
+	width: 100vw;
+	height: 45rem;
+	background: url(../_images/salaf-chicken.jpg) no-repeat center/cover;
+	color: #fff;
+	overflow: hidden;
+}
+.top-div .cover{
+	width: inherit;
+	height: 45rem;
+	background: rgba(0, 0, 0, .7);
+}
+.top-div nav{
+	position: relative;
+	width: 130rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	position: fixed;
+	top: 0;
+	transition: 1.5s;
+}
+nav h1 b{
+	font-size: 3.5rem;
+}
+.scrolling-active{
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 5;
+	height: 7rem;
+	transition: 1s;
+}
+nav h1:nth-child(1){
+	font-size: 2rem;
+	/*margin-left: 1rem;*/
+	letter-spacing: 1rem;
+}
+
+nav ul{
+	display: flex;
+	position: relative;
+	left: 15rem;
+	width: 50rem;
+	list-style: none;
+	align-items: center;
+	justify-content: center;
+	transition: 1s;
+}
+
+ul li{
+	margin-left: 5rem;
+	font-size: 2rem;
+	transition: .5s;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+ul li:hover{
+	font-size: 2.5rem;
+}
+nav .hamburger-menu{
+	position: relative;
+	height: 3rem;
+	width: 3rem;
+	padding: .5rem;
+	left: 35rem;
+	cursor: pointer;
+}
+
+.hamburger-menu div{
+	border: 1px solid;
+	height: 7px;
+	width: inherit;
+	margin: .5rem 0;
+	position: relative;
+	top: -5px;
+	background: #fff;
+	cursor: pointer;
+}
+.top-div .top-content{
+	position: relative;
+	top: 10rem;
+	left: 10rem;
+}
+
+
+.top-content h1{
+	font-size: 5rem;
+}
+.top-content h1 b{
+	font-size: 13rem;
+}
+.top-content p{
+	font-size: 2rem;
+}
+.top-content div{
+	margin: 1.5rem 1rem;
+	width: 15rem;
+	height: 4rem;
+	background: rgb(237, 28, 36);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	transition: .5s;
+	cursor: pointer;
+	outline: 3px solid rgb(237, 28, 36);
+	outline-offset: .5rem;
+}
+.top-content div:hover{
+	letter-spacing: 2px;
+}
+
+
+
+
+
+.next-div-0{
+
+}
+.next-div-0 h1{
+	position: relative;
+	width: 40rem;
+	margin: 3rem auto;
+	left: 5rem;
+	font-size: 2.5rem;
+	letter-spacing: 1rem;
+}
+.next-div-0 h1 b{
+	font-size: 4rem;
+	
+}
+.content-contain-1{
+	height: 20rem;
+	width: 100rem;
+	margin: 0 auto;
+	display: flex;
+}
+.content-contain-1 .item-1{
+	height: 80%;
+	width: 30%;
+	margin-top: 2rem;
+	background: url(../_images/wakye.jpeg) no-repeat center/cover;
+	z-index: -1;
+}
+.content-contain-1 .item-01{
+	height: 80%;
+	width: 30%;
+	margin-top: 2rem;
+	background: url(../_images/burger.jpeg) no-repeat center/cover;
+	z-index: -1;
+}
+
+.content-contain-1 .item-2{
+	height: 80%;
+	width: 70%;
+	margin-top: 2rem;
+	padding: 0 1rem;
+	line-height: 2.5rem;
+	font-size: 1.5rem;
+}
+
+
+
+.next-div-2{
+	height: 50rem;
+	width: 110rem;
+	margin: 5rem auto;
+}
+.next-div-2 .contan-1, .contan-2, .contan-3,
+.contan-4, .contan-5, .contan-6, .contan-7, .contan-8,
+.contan-9, .contan-10{
+	z-index: -1;
+	position: relative;
+	left: 2rem;
+	height: 20rem;
+	width: 17rem;
+	float: left;
+	margin: 2rem 2rem;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.next-div-2 .item-1{
+	height: 80%;
+	width: inherit;
+} 
+.next-div-2 .item-2{
+	height: 20%;
+	width: inherit;
+}
+.next-div-2 .item-1 img{
+	height: 100%;
+	width: inherit;
+}
+.next-div-2 .item-2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.next-div-3{
+	z-index: -1;
+	position: relative;
+	width: 100rem;
+	height: 45rem;
+	margin: 5rem auto;
+}
+.next-div-3 h1{
+	position: relative;
+	width: 50rem;
+	margin: 3rem auto;
+	left: 5rem;
+	letter-spacing: 1rem;
+}
+.next-div-3 h1 b{
+	font-size: 3rem;
+}
+.next-div-3 div{
+	position: relative;
+	height: 20rem;
+	width: 20rem;
+	float: left;
+	margin: 2rem 6rem;
+	left: 1.5rem;
+	top: 2rem;
+}
+.next-div-3 .content-1, .content-2, .content-3{
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.next-div-3 div img{
+	height: 100%;
+	width: inherit;
+}
+.next-div-3 .btn-1{
+	position: relative;
+	height: 5rem;
+	left: 35rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+	color: #fff;
+	background: rgb(236, 28, 36);
+	outline: 3px solid rgb(237, 28, 36);
+	outline-offset: .5rem;
+	top: 4rem;
+	transition: .5s;
+}
+.next-div-3 .btn-1:hover{
+	letter-spacing: 1rem;
+}
+
+
+
+.side-bar{
+	position: relative;
+	top: -220rem;
+	width: 25rem;
+	height: 120vh;
+	z-index: 6;
+	background: #fff;
+	padding: 1rem;
+	left: -30rem;
+	transition: 1s;
+	visibility: hidden;
+	float: left;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+}
+.side-bar.active{
+	left: .1rem;
+	visibility: visible;
+}
+.side-bar h1{
+	margin: 1rem 0;
+}
+.side-bar img{
+	height: 20rem;
+	width: inherit;
+}
+.side-bar ul{
+	list-style: none;
+	margin: 2rem 0;
+}
+.side-bar ul li{
+	position: relative;
+	font-size: 1.5rem;
+	margin-top: 2rem;
+	left: -5rem;
+	
+}
+.side-bar ul li::before{
+	content: "\25b6";
+	position: relative;
+	margin-right: 5rem;
+	color: rgb(237, 28, 36);
+}
+.side-bar button{
+	height: 4rem;
+	width: 15rem;
+	font-size: 1.5rem;
+	color: #fff;
+	background: rgb(237, 28, 36);
+	outline: none;
+	border: none;
+	margin: 5rem 4rem;
+}
+
+
+
+
+
+.footer{
+	z-index: 1;
+	position: relative;
+	height: 50rem;
+	width: inherit;
+	background: url(../_images/chicken.jpeg) no-repeat center/cover;
+	bottom: -250px;
+}
+.footer div{
+	position: relative;
+	background: rgba(0, 0, 0, .9);
+	height: 100%;
+	width: inherit;
+	color: #fff;
+}

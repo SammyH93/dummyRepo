@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>order</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="XUA-Compatible" content="IE=edge">
+	<link rel="stylesheet" type="text/css" href="asset/_css/order.css">
+</head>
+
+<body>
+	<center>
+	<!-- wrapper Start -->
+	<div class="wrapper">
+		
+		<!-- top-div Start -->
+		<div class="top-div">
+			<div class="cover">
+				<nav>
+					<h1><b class="b1">H</b>ot <b class="b2">E</b>rnesto</h1>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="menu.html">Menu</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="about.html">About Us</a></li>
+					</ul>
+				</nav>
+
+				<div class="sub-div">
+					<h1><b>O</b>rder</h1>
+
+					<div class="btn">
+						<h3>take a tour</h3>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- top-div End -->
+
+			<h1 class="h1-0"><b>Y</b>our <b>O</b>der <b>A</b>waits</h1>
+		<!-- next-div-0 Start -->
+		<div class="next-div-0">
+
+			<div class="div-0-inner-1">
+				<form class="form-1">
+					<div><span>Full Name:</span><input type="text" name="fullname" required class="input1" onblur="onBlur();"></div>
+
+					<div><span>Food:</span><select class="drop-box1" onchange="onChange();" onblur="onBlur();">
+						<option style="color: red;" value="No food selected">Please select your food</option>
+						<option value="Kalewale">Special Kalewale</option>
+						<option value="Banku/Hot Sauce">Banku & Hot Sauce</option>
+						<option value="Ampesi/Abom Stew">Ampesi with Abom Stew</option>
+						<option value="Burger/Fries">Burger & Fries</option>
+						<option></option>
+						<option></option>
+						<option></option>
+						<option></option>
+						<option></option>
+						<option></option>
+						<option></option>
+						<option></option>
+						<option></option>
+					</select></div>
+
+					<div><span>Price:</span><label class="price-span"></label></div>
+
+					<div><span>Quantity:</span><input type="number" name="" required class="quantity" oninput="onBlur1();"></div>
+
+					<div><span>Amount:</span><label class="amount-span"></label></div>
+
+					<div><span>Delivery:</span><label class="delivery"></label></div><div><p>Delivery cost will depend on area of location</p></div>
+
+					<div><span>Digital Address:</span><input type="text" name="" required class="digital-address" 
+					onblur="onBlurry();"></div>
+
+					<div><span>Phone:</span><input type="number" name="" required class="phone"></div>
+
+					<div><span>Location:</span><select class="drop-box2" onchange="onChange1();" onblur="onBlurry();">
+						<option style="color: red;">Select your location</option>
+						<option value="Anaji">Anaji</option>
+						<option>Takoradi</option>
+						<option>Sekondi</option>
+						<option>Essipon</option>
+						<option>Airpot Ridge</option>
+						<option>Kojokrom</option>
+						<option>Nkroful</option>
+					</select></div>
+					<div><span>Area:</span><select class="drop-box3" onchange="onChange1();" onblur="onBlurry();">
+						<option style="color: red;">Select your area</option>
+						<option value="Police-Station">Anaji/Police Station</option>
+						<option value="Mount-Zion">Anaji/Mount Zion</option>
+						<option>Takoradi/Market Circle</option>
+						<option>Takoradi/Police Barracks</option>
+						<option>Takoradi/Harbour View</option>
+						<option>Sekondi/Police Barracks</option>
+						<option>Sekondi/Regional Office</option>
+						<option>Sekondi/Estate</option>
+						<option>Essipon/ Stadium Area</option>
+						<option>Essipon/ New Site</option>
+						<option>Essipon/Community</option>
+					</select></div>
+
+					<div><span>Payment:</span><select onchange="onChange();" class="pay">
+						<option style="color: red;">Payment Method</option>
+						<option>Mobile Money</option>
+						<option>Pay on Delivery</option>
+					</select></div><br>
+
+					<input type="submit" name="" value="Order" class="input-1">
+					<p>Please check to Confirm Order</p>
+				</form>
+
+
+
+				<form class="form-2">
+					<div class="form-1-container">
+						<h1>Confirm Order</h1>
+					</div>
+
+						<div><label>Name:</label><span class="sp1"></span></div>
+						
+						<div><label>Order:</label><span class="sp2"></span></div>
+						
+						<div><label>Quantity:</label><span class="sp3"></span></div>
+						
+						<div><label>Order ID:</label><span class="sp4"></span></div>
+						
+						<div><label>Location/Address:</label><span class="sp5"></span></div>
+						
+						<div><label>Phone:</label><span class="sp6"></span></div>
+						
+						<div><label>Total Amount:</label><span class="sp7"></span></div>
+
+						<div><label>Payment:</label><span class="sp8"></span></div>
+
+						<div><label>Date:</label><span class="sp-date"></span></div>
+						<p>Please type your ID as the "Reference Number".</p><br>
+						<input type="submit" name="" value="Confirm Order" class="confirm"><br><br>
+						
+						<input type="submit" value="Cancel" class="disrupt" id="dont"><br>
+						
+					
+				</form>
+
+			</div>
+		</div>
+		<!-- next-div-0 End -->
+
+	</div>
+	<!-- wrapper End -->
+
+	<!-- Start of footer div -->
+	<div class="footer">
+		<footer>
+			<h1><b>H</b>ot <b>E</b>rnesto</h1>
+		</footer>
+	</div>
+	<!-- End of footer div -->
+
+
+	<script type="text/javascript" src="asset/_js/order.js" defer></script>
+</body>
+</html>

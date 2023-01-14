@@ -1,0 +1,107 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	box-sizing: border-box;
+	font-family: calibri, tahoma;
+}
+body a{
+	color: #fff;
+	text-decoration: none;
+}
+body b{
+	color: rgb(237, 28, 36);
+	font-family: mv boli;
+}
+.wrapper .top-div{
+	border: 1px solid;
+	height: 30rem;
+	widows: inherit;
+	background: url(../_images/b10.jpeg) no-repeat center/cover;
+}
+.top-div .cover{
+	height: inherit;
+	width: inherit;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+
+}
+.top-div nav{
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	color: #fff;
+	transition: 1s;
+}
+.scrolling-active{
+	background: rgba(0, 0, 0, 0.8);
+	z-index: 5;
+	height: 10rem;
+	transition: 1s;
+	position: relative;
+}
+nav ul{
+	width: 50rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	list-style: none;
+	font-size: 1.5rem;
+}
+nav h1{
+	font-size: 2rem;
+	letter-spacing: 1rem;
+}
+nav h1 b{
+	font-size: 3rem;
+}
+nav ul li{
+	cursor: pointer;
+}
+.sub-div{
+	display: flex;
+	position: relative;
+	top: 5rem;
+	left: -8rem;
+	height: 30rem;
+	width: 100rem;
+}
+.sub-div h1{
+	font-size: 10rem;
+	letter-spacing: 1rem;
+}
+.sub-div h1 b{
+	font-size: 20rem;
+}
+.btn{
+	position: relative;
+	top: 8rem;
+	height: 5rem;
+	width: 20rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background: rgb(237, 28, 36);
+	outline: 3px solid rgb(237, 28, 36);
+	outline-offset: .5rem;
+	font-size: 1.5rem;
+	letter-spacing: .5rem;
+}
+.next-div-0{
+	height: 30rem;
+	width: 100rem;
+	margin: 5rem 0;
+}
+.next-div-0 p .b1{
+	font-size: 8rem;
+	text-align: justify;
+}
+.next-div-0 p{
+	font-size: 1.5rem;
+	line-height: 2rem;
+	text-align: justify;
+}

@@ -1,0 +1,279 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	box-sizing: border-box;
+	font-family: calibri, tahoma;
+}
+body a{
+	color: #fff;
+	text-decoration: none;
+}
+body b{
+	color: rgb(237, 28, 36);
+	font-family: mv boli;
+}
+.contact{
+	border: 1px solid;
+	height: 5rem;
+	width: 100%;
+}
+.wrapper .top-div{
+	border: 1px solid;
+	height: 30rem;
+	widows: inherit;
+	background: url(../_images/b10.jpeg) no-repeat center/cover;
+}
+.top-div .cover{
+	height: inherit;
+	width: inherit;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+
+}
+.top-div nav{
+	position: fixed;
+	top: 0;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	color: #fff;
+	transition: 1s;
+}
+.scrolling-active{
+	background: rgb(237, 28, 36);
+	z-index: 5;
+	height: 10rem;
+	transition: 1s;
+	position: relative;
+}
+.b-active{
+	color: #333;
+}
+nav ul{
+	width: 50rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	list-style: none;
+	font-size: 1.5rem;
+}
+nav h1{
+	font-size: 2rem;
+	letter-spacing: 1rem;
+}
+nav h1 b{
+	font-size: 3rem;
+}
+nav ul li{
+	cursor: pointer;
+}
+.sub-div{
+	display: flex;
+	position: relative;
+	top: 5rem;
+	left: -8rem;
+	height: 30rem;
+	width: 100rem;
+}
+.sub-div h1{
+	font-size: 10rem;
+	letter-spacing: 1rem;
+}
+.sub-div h1 b{
+	font-size: 20rem;
+}
+.btn{
+	position: relative;
+	top: 8rem;
+	height: 5rem;
+	width: 20rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	background: rgb(237, 28, 36);
+	outline: 3px solid rgb(237, 28, 36);
+	outline-offset: .5rem;
+	font-size: 1.5rem;
+	letter-spacing: .5rem;
+}
+.h1-0{
+	margin: 3rem 0;
+}
+.next-div-0{
+	height: 40rem;
+	width: 100rem;
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.div-0-inner-0{
+	height: 30rem;
+}
+.div-0-inner-0 div{
+	position: relative;
+	top: 5rem;
+	margin-bottom: 1rem;
+	height: 3rem;
+	width: inherit;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.div-0-inner-0 div label{
+	height: 3rem;
+	width: 30%;
+	background: #333;
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	color: #fff;
+	font-size: 1.5rem;
+}
+.div-0-inner-0 div input{
+	width: 60%;
+	height: 3rem;
+	font-size: 1.5rem;
+	padding-left: 1rem;
+}
+.submit{
+	position: relative;
+	top: 5rem;
+	height: 3rem;
+	width: 25rem;
+	background: rgb(237, 28, 36);
+	color: #fff;
+	outline: none;
+	border: none;
+	font-size: 1.5rem;
+}
+.div-0-inner-1{
+	height: inherit;
+}
+.div-0-inner-1 h3{
+	font-size: 1.5rem;
+	position: relative;
+	top: 2rem;
+	color: gray;
+	font-weight: 5px;
+}
+.div-0-inner-1 form{
+	 position: relative;
+	 top: 5rem;
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-evenly;
+}
+.div-0-inner-1 form textarea{
+	height: 10rem;
+	width: 30rem;
+	font-size: 1.2rem;
+	text-align: justify;
+}
+.div-0-inner-1 form input{
+	height: 3rem;
+	width: 15rem;
+	font-size: 1.5rem;
+	color: #fff;
+	background: rgb(237, 28, 36);
+	outline: none;
+	border: none;
+	position: relative;
+	left: -5rem;
+	top: 6rem;
+}
+.contain{
+	position: relative;
+	width: 40rem;
+	height: 15rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: left;
+	top: -50rem;
+	left: 40rem;
+	transition: 1.5s;
+}
+.contact-area, .comment-area, .error-msg-1{
+	position: absolute;
+	height: inherit;
+	width: inherit;
+	z-index: 5;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.contact-area{
+	position: relative;
+	line-height: 1.5rem;
+	font-size: 1.5rem;
+	background: #fff;
+	transform: scale(0);
+	transition: .5s;
+}
+.contact-area p{
+	position: relative;
+	top: 2rem;
+
+}
+.contact-area button{
+	position: relative;
+	top: 5rem;
+	height: 3rem;
+	width: 5rem;
+	background: rgb(237, 28, 36);
+	color: #fff;
+	outline: none;
+	border: none;
+	left: 15rem;
+}
+.comment-area{
+	line-height: 1.5rem;
+	font-size: 1.5rem;
+	background: #fff;
+	transform: scale(0);
+}
+.comment-area	p{
+	position: relative;
+	top: 2rem;
+}
+.comment-area button{
+	position: relative;
+	top: 5rem;
+	height: 3rem;
+	width: 5rem;
+	background: rgb(237, 28, 36);
+	color: #fff;
+	outline: none;
+	border: none;
+	left: 15rem;
+}
+.error-msg-1{
+	background: #fff;
+	transform: scale(0);
+	transition: .5s;
+}
+.error-msg-1 p{
+	position: relative;
+	top: 2rem;
+	font-size: 1.5rem;
+}
+.error-msg-1 button{
+	position: relative;
+	top: -1rem;
+	height: 3rem;
+	width: 5rem;
+	background: rgb(237, 28, 36);
+	color: #fff;
+	outline: none;
+	border: none;
+	left: 15rem;
+}
+.active{
+	transform: scale(1);
+	transition: .5s;
+}
+.footer{
+	border: 1px solid;
+	background: rgba(0, 0, 0, 0.7);
+	height: 15rem;
+}
